@@ -1,0 +1,11 @@
+Problem--Halloumi_Boxes.cpp
+difficulty level: 800, problem is not taht difficulty
+
+Approach: first , went and solved , the visible test case passed, but then WA on test case 2
+Well, got demotivated, started questioning why, but there can be many different reasons, specifically for WA on tc2, so go irritated, something revolving around my mind saying the logic is not correct, but i was afraid to accept, because accepting it means losing the only solution i came up with , that too by myself, but still, took an example against my assumption and made a dry run on it, then got the exact answer....
+
+Learning: So, its fine, if something is wrong , take something you know will fail according to your assumption and see and dry run.
+Most importantly , debug yourself. Debugging teaches you more than solving, and i experienced it just now. So, happy dry running and debugging.
+
+TC: O(n)
+SC: O(1)
