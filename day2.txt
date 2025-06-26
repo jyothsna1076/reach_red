@@ -1,20 +1,9 @@
-✅ Problem Solved: Halloumi Boxes (1901A)
-Difficulty: 800
-Status: ✅ Solved in one go
+✅ Problem Solved:  5 problems
+Difficulty: 2*800, 3*900
+Status: solved first two 800 problems easily, shifted to 900 , struggled a lot with the first 900 level problem, then next two 900 level problems, solved easily .
 
-🧠 Approach:
-Read the problem carefully, trusted my instinct, and implemented the logic directly. Got AC in the first attempt. No edge case surprises — dry running helped boost confidence.
 
 📚 Learnings:
+Practice, Practice , Practice,practice is what makes you perfect...U are never too late, you will just get the realisation at the right time!!..so, go for itafter you get the realistaion !!
 
-Even when a problem looks straightforward, it’s worth validating your logic mentally with dry runs.
-
-Building the habit of debugging before submitting helps avoid WA even in simple problems.
-
-Today proved that you improve with each struggle — yesterday's effort shaped today's clarity.
-
-🧮 Complexity:
-
-Time: O(n)
-
-Space: O(1)
+started writing tc and sc in the solution of the problem itself.
