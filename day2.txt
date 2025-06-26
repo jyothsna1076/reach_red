@@ -1,0 +1,20 @@
+✅ Problem Solved: Halloumi Boxes (1901A)
+Difficulty: 800
+Status: ✅ Solved in one go
+
+🧠 Approach:
+Read the problem carefully, trusted my instinct, and implemented the logic directly. Got AC in the first attempt. No edge case surprises — dry running helped boost confidence.
+
+📚 Learnings:
+
+Even when a problem looks straightforward, it’s worth validating your logic mentally with dry runs.
+
+Building the habit of debugging before submitting helps avoid WA even in simple problems.
+
+Today proved that you improve with each struggle — yesterday's effort shaped today's clarity.
+
+🧮 Complexity:
+
+Time: O(n)
+
+Space: O(1)
