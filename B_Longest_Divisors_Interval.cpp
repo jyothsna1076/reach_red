@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//TC--o(50) , SC-O(1)
 int main()
 {
     int tc;

@@ -1,0 +1,8 @@
+✅ Problem Solved:  3 problems
+Difficulty: 3*900
+Status: solved first two 900 problems easily, but the last one , longest divisors interval was the toughest today, was getting a lot of tle, but yeah , somehow submitted usign bruteforce but have to see for optimal solution tomorrow.
+
+
+📚 Learnings:
+dry run always on paper clearly, it helps ..
+
