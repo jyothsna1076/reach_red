@@ -1,0 +1,6 @@
+✅ Problem Solved:  3 problems
+Difficulty: 2*1000
+Status: solved first  problem fine, but the 2nd problem was tough or tough for me atleast, it actually tried to push my mind, but i was like let me watch video solution , but i postponed it to later time, becaue i wanted to solve by myself, then , later again i was tired of thinking, so i wanted to watch video solution, bu t subconsciously i was thinking about the problem and i was able to solve it by myself when a hint arrived fromt he video solution.
+
+📚 Learnings:
+every limit they mention, evry word in the problem is there there for a reason, so do observe and analyse carefully, sometimes, the solution you got may be true for all times, except for one or two specific scenarios, jot them down and debug and solve....Debugging teaches you more than solving remember?
