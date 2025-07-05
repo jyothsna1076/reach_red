@@ -1,7 +1,7 @@
 # 🔴 From Newbie to Legendary Grandmaster – The Red Climb
 
-## 🎯 Goal
+## 🎯 Goal--- Reach 3000+
+Firts step --- REach expert by December 2025, before new year begins.
+Yess... I will do it .
 
-Reach **Legendary Grandmaster (3000+)** on Codeforces within dedicated 365 days. 
-through daily problem-solving, contest consistency, and deep understanding .
 
