@@ -19,14 +19,14 @@ int main()
         works.insert(a);
     }
     long long sub=0;
-    int found=0;
+    int found=-1;
     for(int i=0;i<n;i++)
     {
-        if(works.find(s[i])== works.end())
+        if(!works.count(s[i]))
         {
-            sub+= (i+1-found)*(n-i);
-            found++;
-            cout<<sub<<" ";
+            sub+= 1LL*(i-found)*(n-i);
+            found=i;
+            //cout<<sub<<" ";
         }
     }
     long long ans= (1LL*(n)*(n+1))/2;
