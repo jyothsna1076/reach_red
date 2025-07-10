@@ -1,57 +1,37 @@
 #include<bits/stdc++.h>
 using namespace std;
 const int mod =1e9+7;
-pair<int, vector<int>> helper(int v1,int v2, int t, int d,int dis,bool flag,vector<int>&path)
-{   if(t==1)
+bool helper(int v1,int v2, int present,int t, int d,vector<vector<int>> &dp)
+{   if(present==t)
     {
-        if(v1!= v2) return {0,{}};
-        else return {dis+v2,path};
+        if(v1==v2) return true;
+        else return false;
     }
-    int ans=0;
-    vector<int> finalans;
-    for(int i=0;i<=d;i++)
-    { //if(flag) cout<<i<<endl;
-        path.push_back(i);
-         auto d1= helper(v1+i,v2,t-1,d,dis+v1,false,path);
-        if(d1.first >ans)
-        {
-            ans= d1.first;
-            finalans= d1.second;
-        }
-        
-        path.pop_back();
-        path.push_back(-i);
-       
-      auto d2= helper(v1-i,v2,t-1,d,dis+v1,false,path);
-          if(d2.first >ans)
-        {
-            ans= d2.first;
-            finalans= d2.second;
-        }
-        path.pop_back();
+int end= max(v1-d,0);
+//cout<<"end is"<<end<<" ";
+for(int i= v1+d; i>=end;i--)
+{   
+    if(dp[present+1][i]==0) 
+    { dp[present+1][i]= dp[present][v1]+i;
+       // cout<<dp[present+1][i]<<" ";
+      if(helper(i,v2,present+1,t,d,dp)) return true;
     }
-    return {ans,finalans};
+    
+}
+return false;
 }
 int main()
 {
-//     #include <typeinfo>
-// cout << typeid(pow(2, 5)).name() << endl;
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int v1,v2;
     int t,d;
     cin>>v1>>v2>>t>>d;
-    vector<int> ans;
+    //vector<int> ans;
+vector<vector<int>> dp (t+1,vector<int>(1200,0));
+dp[1][v1]=v1;
 
-   auto check=helper(v1,v2,t,d,0,true,ans);
-   cout<<check.first<<"\n";
-//    ans= check.second;
-//    for(int i=0;i<ans.size();i++)
-//    {
-//     cout<<ans[i]<<" ";
-//    }
-
-
-    
+ bool ans= helper(v1,v2,1,t,d,dp);
+  cout<<dp[t][v2]<<"\n";
     return 0;
 }
